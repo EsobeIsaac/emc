@@ -1,0 +1,208 @@
+#head-inner-1, #head-inner-2 {
+                background-color: #333;
+                color: #fff;
+                padding: 220px 10%;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                
+            }
+.about-header{
+                background-color: #333;
+                padding: 220px 10%;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-image: url(images/hans-boodt-1006004_640.jpg);
+}
+
+.purchase-container{
+    padding: 20px 0;
+}
+
+.about-header .container{
+    color: #fff;
+}
+
+nav li a:link{
+    color: #fff;
+}
+
+nav li a:hover{
+    color: #fff;
+    background-color: #000;
+}
+
+nav li a:visited{
+    color: #fff;
+}
+nav li a:active{
+    color: red;
+    background-color: #000;
+}
+.navbar{
+    background-color: rgb(0, 0, 0, 0.4);
+    padding: 10px 50px;
+}
+
+.logo{
+    color: brown;
+    font-weight: 900;
+    font-size: 1.5em;
+}
+.menu{
+    color: #fff;
+}
+
+
+            #head-inner-1{
+                background-image: url(images/blouse-2597205_1920.jpg);
+            }
+            #head-inner-2{
+                background-image: url(images/mannequins-2619624_640.jpg);
+            }
+            #head-inner-1 h1, #head-inner-2 h1, .about-header h1{
+                margin-bottom: 30px
+            }
+            #head-inner-1 p, #head-inner-2 p, .about-header div p{
+                font-size: 1.5em;
+                line-height: 1.1em
+            }
+            .who-we-are{
+                text-align: center;
+                color: brown;
+                background-color: #eee;
+            }
+
+.our-process [class^=col]{
+    background-color: rgb(0, 0, 0, 0.4);
+}
+.our-process{
+    background-color: #eee;
+    background-image: url(images/uniqlo-1737663_1920.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.our-process h2 {
+    color: brown;
+}
+.our-process p, .our-process h5{
+    color: #fff;
+}
+.our-process i{
+    color: brown;
+    font-weight: 600;
+}
+.our-process i{
+    color: brown;
+    font-size: 20px;
+    border: 2px solid brown;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 50px;
+}
+            #who-we-are p{
+                font-size: 20px;
+            }
+
+            section{
+                padding: 50px 30px 20px;
+            }
+            #browse-cloth{
+                bac
+            }
+            .post{
+                padding:  200px;
+                background-image: url(images/bezel-1560605_640.jpg);
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+                position: relative;
+            }
+            .back{
+                position: absolute;
+                top: 30px;
+                left: 50px;
+                color: #fff;
+                font-size: 30px;
+                padding: 10px;
+                border: 5px solid #fff;
+                border-radius: 100%;
+            }
+.footer{
+    padding: 30px;
+    color: #fff;
+    background-color: #333;
+}
+.copywrite{
+    margin-bottom: 0px;
+    padding: 5px;
+}
+.cloth img{
+    height: 200px;
+}
+.shoe img{
+    height: 200px;
+}
+.hat img{
+    height: 180px
+}
+.trends img{
+    height: 200px;
+    align-self: center;
+}
+
+.trends{
+    background-color: #eee;
+}
+
+[class^=col-]{
+    margin-bottom: 20px
+}
+.testimonial .card{
+    width: 50%;
+    margin-left: 25%;
+}
+
+.testimonial{
+    background-color: brown;
+    background-image: url(images/store-984393_1920.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.black{
+    color: #fff;
+    background-color: #000;
+    border: 0px;
+    padding: 5px 30px;
+    border-radius: 50px;
+}
+.black:hover{
+    background-color: rgb(0, 0, 0, 0.5);
+    color: #fff;
+}
+.choose-serve{
+    background-color: rgb(165, 42, 42, 0.9);
+    color: #fff;
+}
+.our-process{
+    
+}
+.act-btn{
+    background-color: brown;
+    color: #fff;    
+}
+act-btn:hover{
+    background-color: rgb(165, 42, 42, 0.4);
+    color: #fff;
+}
+
+.card:hover .card-body{
+    background-color: #eee;
+    color: #a52a2a;
+}
+.card:hover .card-img-top{
+    transform: rotate(180deg);
+}
