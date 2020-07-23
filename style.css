@@ -171,6 +171,7 @@ nav li a:active{
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
+    z-index: -3;
 }
 .black{
     color: #fff;
@@ -207,10 +208,3 @@ act-btn:hover{
     transform: rotate(180deg);
 }
 
-@media (max-width: 767px) {
-.testimonial {
-
-    background-attachment: initial;
-
-}
-}
