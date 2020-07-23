@@ -206,3 +206,11 @@ act-btn:hover{
 .card:hover .card-img-top{
     transform: rotate(180deg);
 }
+
+@media (max-width: 767px) {
+.testimonial {
+
+    background-attachment: initial;
+
+}
+}
