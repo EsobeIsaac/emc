@@ -41,7 +41,7 @@ nav li a:active{
     background-color: #000;
 }
 .navbar{
-    background-color: rgb(0, 0, 0, 0.4);
+    background-color: rgb(0, 0, 0, 0.9);
     padding: 10px 50px;
 }
 
@@ -205,6 +205,6 @@ act-btn:hover{
     color: #a52a2a;
 }
 .card:hover .card-img-top{
-    transform: rotate(180deg);
+    opacity: 0.8;
 }
 
