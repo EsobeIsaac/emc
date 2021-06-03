@@ -1,27 +1,25 @@
+body{
+	margin: 0px;
+	padding: 0px
+}
+
 #head-inner-1, #head-inner-2 {
                 background-color: #333;
                 color: #fff;
-                padding: 220px 10%;
+                padding: 250px 20%;
                 background-position: center;
                 background-repeat: no-repeat;
                 background-size: cover;
+            
                 
             }
-.about-header{
-                background-color: #333;
-                padding: 220px 10%;
-                background-position: center;
-                background-repeat: no-repeat;
-                background-size: cover;
-                background-image: url(images/hans-boodt-1006004_640.jpg);
-}
 
 .purchase-container{
-    padding: 0px 10px 10px 10px;
+    padding: 20px 0;
 }
 
-.about-header .container{
-    color: #fff;
+a:link{
+	text-decoration: none
 }
 
 nav li a:link{
@@ -41,8 +39,8 @@ nav li a:active{
     background-color: #000;
 }
 .navbar{
-    background-color: rgb(0, 0, 0, 0.8);
-    padding: 10px 50px;
+    background-color: rgba(0, 0, 0, 0.9);
+    padding: 10px 100px;
 }
 
 .logo{
@@ -55,27 +53,25 @@ nav li a:active{
 }
 
 
-            #head-inner-1{
-                background-image: url(images/blouse-2597205_1920.jpg);
-            }
-            #head-inner-2{
-                background-image: url(images/mannequins-2619624_640.jpg);
-            }
-            #head-inner-1 h1, #head-inner-2 h1, .about-header h1{
-                margin-bottom: 30px
-            }
-            #head-inner-1 p, #head-inner-2 p, .about-header div p{
-                font-size: 1.5em;
-                line-height: 1.1em
-            }
-            .who-we-are{
-                text-align: center;
-                color: brown;
-                background-color: #eee;
-            }
+#head-inner-1{
+    background-image: url(images/blouse-2597205_1920.jpg);
+}
+#head-inner-2{
+    background-image: url(images/mannequins-2619624_640.jpg);
+}
+#head-inner-1 h1, #head-inner-2 h1, .about-header h1{
+    margin-bottom: 20px;
+}
+    .who-we-are{
+    text-align: center;
+    color: brown;
+    background-color: #eee;
+    margin-top: 70px
+}
 
 .our-process [class^=col]{
     background-color: rgb(0, 0, 0, 0.4);
+    padding: 20px;
 }
 .our-process{
     background-color: #eee;
@@ -102,38 +98,52 @@ nav li a:active{
     background-color: #fff;
     border-radius: 50px;
 }
-            #who-we-are p{
-                font-size: 20px;
-            }
+#who-we-are p{
+    font-size: 20px;
+}
 
-            section{
-                padding: 50px 30px 20px;
-            }
-            #browse-cloth{
-                bac
-            }
-            .post{
-                padding:  200px;
-                background-image: url(images/bezel-1560605_640.jpg);
-                background-repeat: no-repeat;
-                background-position: center;
-                background-size: cover;
-                position: relative;
-            }
-            .back{
-                position: absolute;
-                top: 30px;
-                left: 50px;
-                color: #fff;
-                font-size: 30px;
-                padding: 10px;
-                border: 5px solid #fff;
-                border-radius: 100%;
-            }
+section{
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+            
+.post{
+    padding: 200px;
+    background-image: url(images/bezel-1560605_640.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.back{
+    position: absolute;
+    top: 30px;
+    left: 50px;
+    color: #fff;
+    font-size: 30px;
+    padding: 10px;
+    border: 5px solid #fff;
+    border-radius: 100%;
+}
 .footer{
     padding: 30px;
     color: #fff;
     background-color: #333;
+}
+.footer a:link{
+	color: #fff;
+	text-decoration: none
+}
+.footer a:hover{
+	color: orangered
+}
+.footer i{
+	color: #fff;
+	font-size: 25px;
+	font-weight: 600;
+}
+.footer i:hover{
+	color: #ccc
 }
 .copywrite{
     margin-bottom: 0px;
@@ -171,7 +181,6 @@ nav li a:active{
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
-    z-index: -3;
 }
 .black{
     color: #fff;
@@ -188,9 +197,7 @@ nav li a:active{
     background-color: rgb(165, 42, 42, 0.9);
     color: #fff;
 }
-.our-process{
-    
-}
+
 .act-btn{
     background-color: brown;
     color: #fff;    
@@ -207,4 +214,152 @@ act-btn:hover{
 .card:hover .card-img-top{
     opacity: 0.8;
 }
+
+/* other styling to home page */
+
+
+.product-banner img{
+    height: 400px;
+    width: 80%;
+	margin-right: auto;
+}
+.banner-text button{
+    margin-top: 60px;
+    border-radius: 50px;
+    background-color: brown;
+    color: #fff;
+}
+.banner-text{
+    padding: 70px 0px;
+    
+}
+.home-article{
+    padding: 10px 30px;
+    margin-top: 50px
+}
+.zero-review{
+    position: relative;
+    
+}
+
+.zero-review p span{
+    position: absolute;
+    right: 0px;
+}
+
+.review-box{
+    border-top: 1px solid gainsboro;
+    padding: 20px 0px;
+}
+
+.review-submit{
+    padding: 5px 50px;
+    border-radius: 50px;
+    color: #fff;
+    background-color: brown;
+    margin: 30px 0px 30px 50%;
+    width: 50%;
+    
+}
+
+.progress{
+    height: 10px;
+    margin-top: 8px
+}
+
+.no-review .note{
+    background-color: brown;
+    color: #fff;
+    padding: 8px;
+    width: 100%;
+    margin: 0px;
+}
+.yellow-star{
+    border: 1px solid #eee;
+    color: yellow
+}
+.your-rate span{
+    color: darkgoldenrod;
+    margin-left: 50px
+}
+
+.checked{
+	color: darkgoldenrod
+}
+
+.review-box input, .review textarea {
+    border-radius: 100px;
+}
+
+.nav-pills, .nav-tabs{
+    margin-top: 30px;
+}
+.path{
+    padding-left: 0px;
+    margin-top: 40px;
+}
+.path ul{
+    padding-left: 0px;
+    list-style-type: none;
+}
+.path li{
+    display: inline-block;
+}
+.path a:link{
+    color: #a52a2a;
+    text-decoration: none;
+}
+.path a:hover{
+    color: #333;
+}
+.path a:active{
+    color: #a52a2a;
+}
+.path a:visited{
+    color: #a52a2a;
+}
+.putRate span{
+    margin: 2px;
+}
+.categories img{
+    height: 80px;
+    width: 80px;
+    border-radius: 100px;
+    vertical-align: bottom;
+    border: 5px solid #a52a2a;
+}
+.categories [class^="col"] {
+    text-align: center;
+}
+.categories span{
+    color: #a52a2a;
+    font-weight: 600;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+
+
+
+@media only screen and (min-width: 768px) {
+    
+    .review-article{
+        width: 70%;
+        float: right;
+    }
+    main::after{
+        clear: both;
+        display: table;
+        content: "";
+    }
+    .review-box{
+    border: 3px solid gainsboro;
+    padding: 5px 5px 50px;
+    border-radius: 50px
+	}
+    
+}
+
 

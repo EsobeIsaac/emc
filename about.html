@@ -3,15 +3,23 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>About Emeka's Collection</title>
+        <title>Project</title>
+        
         <link rel="stylesheet" href="style.css">
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-        
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-        
+		
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+		<!--	Font Awesome	-->
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+
+		<!-- jQuery library -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+		<!-- Popper JS -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+		<!-- Latest compiled JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
         
     </head>
     <body>
@@ -29,28 +37,31 @@
 <!--                navbar links-->
                 <div class="collapse navbar-collapse" id="mainMenu">
                     <ul class="navbar-nav ml-auto">
-                        <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
-                        <li class="nav-item"><a href="#who-we-are" class="nav-link">Who we are</a></li>
-                        <li class="nav-item"><a href="#choose-serve" class="nav-link">Why Choose Us</a></li>
-                        <li class="nav-item"><a href="#choose-serve" class="nav-link">History</a></li>
-                        <li class="nav-item"><a href="#choose-serve" class="nav-link">Services</a></li>
-                        <li class="nav-item"><a href="#process" class="nav-link">Our Process</a></li>
-                        <li class="nav-item"><a href="#trends" class="nav-link">Trends</a></li>
-                        <li class="nav-item"><a href="#testimonial" class="nav-link">Testimonial</a></li>
+                                <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                                <li class="nav-item"><a href="about.html" class="nav-link">About Us</a></li>
+                                <li class="nav-item dropdown"><a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Categories</a>
+                                <div class="dropdown-menu" style="background-color: #5a2a2a; padding: 30px 40pxs;">
+                                    <a class="dropdown-item" href="allClothes.html">All Clothes</a>
+                                    <a class="dropdown-item" href="maleClothes/maleClothes.html">Male Clothes</a>
+                                    <a class="dropdown-item" href="femaleClothes/femaleClothes.html">Female Clothes</a>
+                                    <a class="dropdown-item" href="allShoes.html">All Shoes</a>
+                                    <a class="dropdown-item" href="maleShoes/maleShoes.html">Male Shoes</a>
+                                    <a class="dropdown-item" href="femaleShoes/femaleShoes.html">Female Shoes</a>
+                                    <a class="dropdown-item" href="allCaps.html">All  Caps</a>
+                                    <a class="dropdown-item" href="maleCaps/maleCaps.html">Male Caps</a>
+                                    <a class="dropdown-item" href="femaleCaps/femaleCaps.html">Female Caps</a>
+                                </div>
+                                </li>
+                        <li class="nav-item"><a href="#contactModal" data-toggle="modal" class="nav-link">Contact Us</a></li>
                     </ul>
                 </div>
             </nav>
-            
-            
-            <div class="container">
-                <h1>ABOUT<br> EMEKA'S COLLECTION</h1>
-                <p>Ipson abi na wetin them de call am, don go buy akara without checking the expiring date</p>
-            </div> 
             
         </header>
         
         <article>
             <section class="who-we-are" id="who-we-are">
+				<div class="container">
                 <h2>WHO WE ARE</h2><br><br>
                 <div class="row">
                     <div class="col-sm-12 col-md-6">
@@ -60,12 +71,14 @@
                         <p>This olist is just a demo Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias id volume amet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias id volume amet. Lorem ipsum</p>
                     </div>
                     <div class="col-sm-12 col-md-6">
-                        <img src="images/beautiful-people-3954533_1920.jpg" alt="we" class="img-fluid align-self-center rounded-circle">
+                        <img src="images/beautiful-people-3954533_1920.jpg" alt="we" class="img-fluid align-self-center rounded">
                     </div>
+					</div>
                 </div>
             </section>
             
             <section class="choose-serve" id="choose-serve">
+				<div class="container">
                 <div class="row">
                     <div class="why-choose-us col-sm-12 col-md-4" id="choose-us">
                         <h2>WHY CHOOSE US</h2><br>
@@ -91,14 +104,14 @@
                         </table><br><br>
                             </div>
                         
-                    <div class="our services col-sm-12 col-md-4" id="services">
+                    <div class="history col-sm-12 col-md-4" id="history">
                         <h2>BRIEF HISTORY</h2><br>
                         <p> In 2004 This olist is just a demo Lorem ipsum dolor sit amet consectetur. This olist is just a demo Lorem ipsum dolor sit amet consectetur.</p>
                         <p> In 2004 This olist is just a demo Lorem ipsum dolor sit amet consectetur. This olist is just a demo Lorem ipsum dolor sit amet consectetur.</p>
                         
                     </div><br>
                     
-                    <div class="our services col-sm-12 col-md-4" id="services">
+                    <div class=" col-sm-12 col-md-4" id="services">
                         <h2>OUR SERVICES</h2><br>
                             <table class="table-striped table-responsive">
                                 <tr>
@@ -122,12 +135,15 @@
                         </table>
                         </div>
                             </div>
-                        </div>
+				</div>
+                       
             </section>
         
             <section class="our-process" id="process">
+				
                 <h2 class="text-center">OUR PROCESS</h2><br><br>
                 <div class="row no-gutters">
+					
                     <div class="col-sm-6 col-md-3 text-center">
                         <div>
                             <i class="fa fa-calendar"></i>
@@ -156,81 +172,107 @@
                         <p>This olist is just a demo Lorem ipsum dolor sit amet consectetur.</p>
                         </div>
                     </div>
-                </div>
+					</div>
             </section>
     
             <section id="trends" class="trends" style="margin-bottom: 0px;">
+				<div class="container">
                 <h2>Trending Collections</h2>
                 <p>Purchase trending collections at discounted amount</p>
                 <p>Lorem ipso said so though i have forgotten when. The truth is that the quote up there comes from google, and what you are reading now is just to fill gaps hahaha</p>
                 
                 <div class="row">
 
-                    <div class="col-md-4 col-sm-6">
-                        <div class="card">
-                            <img class="card-img-top" src="images/shoe-1433925_640.jpg" alt="card image top">
-                            <div class="card-body">
-                            <h4 class="card-title">Lorem</h4>
-                            <p><del>$80</del><br><ins>$20</ins></p>
-                            <a href="purchase.html" class=" btn act-btn stretched-link">Browse Now</a>
-                            </div>
-                        </div>
-                    </div>
+                    <div class="col-sm-6 col-md-3">
+								<div class="card">
+									<img class="card-img-top" src="downloads/mc_2.jpg" alt="trending product" >
+									<div class="card-body">
+									<h4 class="card-title">Lorem Ipsu</h4>
+									<p class="card-text">Price = <mark>$20</mark></p>
+									<a href="maleClothes/mc2.html" class=" btn act-btn stretched-link">Order now</a>
+									</div>
+								</div>
+							</div>
+                        
+							<div class="col-sm-6 col-md-3">
+								<div class="card">
+									<img class="card-img-top" src="downloads/fmc_2.jpg" alt="trending product" >
+									<div class="card-body">
+									<h4 class="card-title">Lorem Ipsu</h4>
+									<p class="card-text">Price = <mark>$20</mark></p>
+									<a href="femaleClothes/fmc2.html" class=" btn act-btn stretched-link">Order now</a>
+									</div>
+								</div>
+							</div>
 
-                    <div class="col-md-4 col-sm-6">
-                        <div class="card">
-                            <img class="card-img-top" src="images/store-1338629_1920.jpg" alt="card image top">
-                            <div class="card-body">
-                            <h4 class="card-title">Lorem </h4>
-                            <p><del>$80</del><br><ins>$20</ins></p>
-                            <a href="purchase.html" class=" btn act-btn stretched-link">Order Now</a>
-                            </div>
-                        </div>
-                    </div>
+                    <div class="col-sm-6 col-md-3">
+								<div class="card">
+									<img class="card-img-top" src="downloads/mk_2.jpg" alt="trending product" >
+									<div class="card-body">
+									<h4 class="card-title">Lorem Ipsu</h4>
+									<p class="card-text">Price = <mark>$20</mark></p>
+									<a href="maleCaps/mk2.html" class=" btn act-btn stretched-link">Order now</a>
+									</div>
+								</div>
+							</div>
+                    
+                    <div class="col-sm-6 col-md-3">
+								<div class="card">
+									<img class="card-img-top" src="downloads/fms_2.jpg" alt="trending product" >
+									<div class="card-body">
+									<h4 class="card-title">Lorem Ipsu</h4>
+									<p class="card-text">Price = <mark>$20</mark></p>
+									<a href="femaleShoes/fms2.html" class=" btn act-btn stretched-link">Order now</a>
+									</div>
+								</div>
+							</div>
+                        
+							<div class="col-sm-6 col-md-3">
+								<div class="card">
+									<img class="card-img-top" src="downloads/ms_7.jpg" alt="trending product" >
+									<div class="card-body">
+									<h4 class="card-title">Lorem Ipsu</h4>
+									<p class="card-text">Price = <mark>$20</mark></p>
+									<a href="maleShoes/ms7.html" class=" btn act-btn stretched-link">Order now</a>
+									</div>
+								</div>
+							</div>
 
-                    <div class="col-md-4 col-sm-6">
-                        <div class="card">
-                            <img class="card-img-top" src="images/for-sale-1674726_1920.jpg" alt="card image top" >
-                            <div class="card-body">
-                            <h4 class="card-title">Lorem</h4>
-                            <p><del>$80</del><br><ins>$20</ins></p>
-                            <a href="purchase.html" class=" btn act-btn stretched-link">Order Now</a>
-                            </div>
-                        </div>
-                    </div>
 
-                    <div class="col-md-4 col-sm-6">
-                        <div class="card">
-                            <img class="card-img-top" src="images/fashion-1284496_640.jpg" alt="card image top" >
-                            <div class="card-body">
-                            <h4 class="card-title">Lorem</h4>
-                            <p><del>$80</del><br><ins>$20</ins></p>
-                            <a href="purchase.html" class=" btn act-btn stretched-link">Order Now</a>
-                            </div>
-                        </div>
-                    </div>
+                    <div class="col-sm-6 col-md-3">
+								<div class="card">
+									<img class="card-img-top" src="downloads/mk_7.jpg" alt="trending product" >
+									<div class="card-body">
+									<h4 class="card-title">Lorem Ipsu</h4>
+									<p class="card-text">Price = <mark>$20</mark></p>
+									<a href="maleCaps/mk7.html" class=" btn act-btn stretched-link">Order now</a>
+									</div>
+								</div>
+							</div>
 
-                    <div class="col-md-4 col-sm-6">
-                        <div class="card">
-                            <img class="card-img-top" src="images/mannequin-1901090_640.jpg" alt="card image top">
-                            <div class="card-body">
-                            <h4 class="card-title">Lorem </h4>
-                            <p><del>$80</del><br><ins>$20</ins></p>
-                            <a href="purchase.html" class=" btn act-btn stretched-link">Order Now</a>
-                            </div>
-                        </div>
-                    </div>
+                    <div class="col-sm-6 col-md-3">
+								<div class="card">
+									<img class="card-img-top" src="downloads/ms_7.jpg" alt="trending product" >
+									<div class="card-body">
+									<h4 class="card-title">Lorem Ipsu</h4>
+									<p class="card-text">Price = <mark>$20</mark></p>
+									<a href="maleShoes/ms7.html" class=" btn act-btn stretched-link">Order now</a>
+									</div>
+								</div>
+							</div>
 
-                    <div class="col-md-4 col-sm-6">
-                        <div class="card">
-                            <img class="card-img-top" src="images/black-1239360_640.jpg" alt="card image top" >
-                            <div class="card-body">
-                            <h4 class="card-title">Lorem </h4>
-                            <p><del>$80</del><br><ins>$20</ins></p>
-                            <a href="purchase.html" class=" btn act-btn stretched-link">Order Now</a>
-                            </div>
-                        </div>
-                    </div>
+                    <div class="col-sm-6 col-md-3">
+								<div class="card">
+									<img class="card-img-top" src="downloads/fmc_7.jpg" alt="trending product" >
+									<div class="card-body">
+									<h4 class="card-title">Lorem Ipsu</h4>
+									<p class="card-text">Price = <mark>$20</mark></p>
+									<a href="femaleClothes/fmc7.html" class=" btn act-btn stretched-link">Order now</a>
+									</div>
+								</div>
+							</div>
+                    
+					</div>
 
                 </div>
                 
@@ -259,17 +301,18 @@
                         <div class="card">
                             <div class="card-body bg-dark text-white text-left">
                                 <p>Lorem ipsum dolor sit amet lsko sk ks consectetur iahis oajosj osjpod kdspk psokkpkd pskdp pspsi</p>
-                                <a href="#" data-toggle="modal" data-target="#modal" class="btn act-btn" type="button">View Profile</a>
+                                <a href="#modal" data-toggle="modal" class="btn act-btn" type="button">View Profile</a>
                             </div>
                         </div>
                     </div>
+                    
                 </div>
                 
                 <a href="#demoT" class="carousel-control-prev" data-slide="prev"><span class="carousel-control-prev-icon"></span></a>
                 <a href="#demoT" class="carousel-control-next" data-slide="next"><span class="carousel-control-next-icon"></span></a>
             </div>
-                    
-                    <div class="modal" id="modal">
+
+            <div class="modal" id="modal">
                 <div class="modal-dialog">
                     <div class="modal-content">
                         <div class="modal-header">
@@ -308,8 +351,53 @@
                     </div>
                 </div>
             </div>
-                    
+
         </section>
+            
+            
+                    <div class="modal" id="contactModal">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h3 class="modal-title">Ziro Kex</h3>
+                            <button class="close" data-dismiss="modal" type="button">&times;</button>
+                        </div>
+                        
+                        
+                        <div class="modal-body">
+                            <form>
+                        
+                       
+                        
+                        <div  class="form-group">
+                        <label for="name">Name*</label>
+                        <input type="text" id="name" class="form-control" required>
+                        </div>
+                        
+                        <div  class="form-group">
+                        <label for="email">Email*</label>
+                        <input type="email" id="email" class="form-control" required>
+                        </div>
+                                
+                         <div  class="form-group">
+                        <label for="message">Your Message</label>
+                        <textarea id="message" class="form-control" rows="4"></textarea>
+                        </div>
+                        
+                        <div class="form-check">
+                            
+                            <label class="form-check-label"><input type="checkbox" class="form-check-input">Save my name, email and website in this browser for the next message </label>
+                        </div>
+                        
+                        <input type="submit" class="review-submit" value="Send">
+                        
+                    </form>
+                            
+                        </div>
+                        <div class="modal-footer"><button class="btn act-btn" type="button" data-dismiss="modal">Close</button></div>
+                    </div>
+                </div>
+            </div>
             
             
         </article>
@@ -346,6 +434,10 @@
         
         
         </main>
-           
+            
+            <script src="js/jquery-3.5.1.slim.min.js"></script>
+            <script src="js/popper.min.js"></script>
+            <script src="js/bootstrap.min.js"></script>
+            
     </body>
 </html>
